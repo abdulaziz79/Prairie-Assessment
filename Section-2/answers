@@ -1,0 +1,13 @@
+SELECT first name, last name, rank from mentors
+SELECT * instructors where office= 333
+SELECT first name, last name ,rank from instructors
+WHERE salary >1000
+SELECT instructors.firstname, instructors.lastname from instructors
+INNER JOIN department
+WHERE name ="english &life skills"
+SELECT name from students
+WHERE skills="development"
+SELECT ssn from students
+WHERE skill="development"
+
+
