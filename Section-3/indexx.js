@@ -11,8 +11,8 @@ user_input=parseInt(user_input)
     }
     return true
 }
-for (let i=2 ; i<=user_input.length; i++){
+for (let i=2 ; i<=user_input; i++){
     if(isPrime(i)){
-       alert(`prime number is ${i}`)
+       console.log(i)
     }
 }
